@@ -1,0 +1,7 @@
+package com.adriamilan.investigadores.service;
+
+public interface IInvestigadorService {
+
+	public List<Investigador> listInvestigador();
+	
+}

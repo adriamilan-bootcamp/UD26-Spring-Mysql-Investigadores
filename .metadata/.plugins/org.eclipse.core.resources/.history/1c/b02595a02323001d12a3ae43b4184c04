@@ -1,0 +1,5 @@
+package com.adriamilan.investigadores.dao;
+
+public interface IEquipoDAO extends JpaRepository<Equipo, Long> {
+
+}

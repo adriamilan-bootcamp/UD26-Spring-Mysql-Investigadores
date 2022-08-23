@@ -1,0 +1,5 @@
+package com.adriamilan.investigadores.dao;
+
+public interface IInvestigadorDAO extends JpaRepository<Investigador, Long> {
+
+}

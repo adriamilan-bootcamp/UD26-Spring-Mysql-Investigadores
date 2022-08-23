@@ -1,0 +1,12 @@
+package com.adriamilan.investigadores.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.adriamilan.investigadores.dao.IEquipoDAO;
+
+public class EquipoServiceImpl implements IEquipoService {
+
+	@Autowired
+	IEquipoDAO equipodao;
+	
+}

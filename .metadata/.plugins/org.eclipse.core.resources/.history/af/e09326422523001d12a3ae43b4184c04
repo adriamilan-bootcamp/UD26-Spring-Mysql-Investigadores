@@ -1,0 +1,7 @@
+package com.adriamilan.investigadores.service;
+
+public interface IReservaService {
+
+	public List<Reserva> listReservas();
+	
+}

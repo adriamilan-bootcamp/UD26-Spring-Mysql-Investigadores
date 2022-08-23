@@ -1,0 +1,5 @@
+package com.adriamilan.investigadores.dto;
+
+public class Equipos {
+
+}

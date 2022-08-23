@@ -1,0 +1,9 @@
+package com.adriamilan.investigadores.controller;
+
+@RestController
+@RequestMapping("/api")
+public class EquipoController {
+
+	
+	
+}

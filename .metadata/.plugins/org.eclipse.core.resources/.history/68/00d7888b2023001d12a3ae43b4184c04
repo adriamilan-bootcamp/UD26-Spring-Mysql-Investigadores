@@ -1,0 +1,21 @@
+package com.adriamilan.investigadores.dto;
+
+@Entity
+@Table(name="investigadores")
+public class Investigador {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
+	
+	@Column(name="dni")
+	private String dni;
+	
+	@Column(name="nombre_apellidos")
+	private String nombre_apellidos;
+	
+	@ManyToOne
+	@JoinColumn(name="facultad")
+	private Facultad facultad;
+	
+}

@@ -1,0 +1,11 @@
+package com.adriamilan.investigadores.dto;
+
+@Entity
+@Table(name="reservas")
+public class Reserva {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
+	
+}

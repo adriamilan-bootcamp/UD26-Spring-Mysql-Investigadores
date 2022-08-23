@@ -1,0 +1,7 @@
+package com.adriamilan.investigadores.dto;
+
+@Entity
+@Table(name="facultades")
+public class Facultad {
+
+}

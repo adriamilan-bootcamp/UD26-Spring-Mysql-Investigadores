@@ -1,0 +1,15 @@
+package com.adriamilan.investigadores.service;
+
+public interface IReservaService {
+
+	public List<Reserva> listReservas();
+	
+	public Reserva reservaXID(Long id);
+	
+	public Reserva saveReserva(Reserva reserva);
+	
+	public Reserva editReserva(Reserva reserva);
+	
+	public String deleteReserva(Long id);
+	
+}

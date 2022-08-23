@@ -1,0 +1,8 @@
+package com.adriamilan.investigadores.service;
+
+public class FacultadServiceImpl {
+
+	@Autowired
+	IFacultadService fcservice;
+	
+}

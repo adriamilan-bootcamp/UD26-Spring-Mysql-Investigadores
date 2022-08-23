@@ -1,0 +1,5 @@
+package com.adriamilan.investigadores.service;
+
+public interface IInvestigadorService {
+
+}

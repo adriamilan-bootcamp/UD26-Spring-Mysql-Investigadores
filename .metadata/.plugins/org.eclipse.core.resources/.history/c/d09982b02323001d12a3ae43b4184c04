@@ -1,0 +1,5 @@
+package com.adriamilan.investigadores.dao;
+
+public interface IFacultadDAO extends JpaRepository<Facultad, Long> {
+
+}

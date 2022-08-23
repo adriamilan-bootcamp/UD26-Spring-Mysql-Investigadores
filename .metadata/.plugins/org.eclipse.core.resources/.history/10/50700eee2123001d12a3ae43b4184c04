@@ -1,0 +1,18 @@
+package com.adriamilan.investigadores.dto;
+
+@Entity
+@Table(name="equipos")
+public class Equipo {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
+	
+	@Column(name="nombre")
+	private String nombre;
+	
+	@ManyToOne
+	@JoinColumn(name="")
+	private Facultad facultad;
+	
+}

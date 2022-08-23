@@ -1,0 +1,22 @@
+package com.adriamilan.investigadores.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.adriamilan.investigadores.service.FacultadServiceImpl;
+
+@RestController
+@RequestMapping("/api")
+public class FacultadController {
+
+	@Autowired
+	FacultadServiceImpl fcservice;
+	
+	@GetMapping("/facultades")
+	public List<Facultad> listFacultades() {
+		return fcservice.listFacultades();
+	}
+	
+}

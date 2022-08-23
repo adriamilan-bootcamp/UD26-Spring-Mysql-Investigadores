@@ -1,0 +1,27 @@
+package com.adriamilan.investigadores.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.adriamilan.investigadores.dto.Investigador;
+import com.adriamilan.investigadores.service.InvestigadorServiceImpl;
+
+@RestController
+@RequestMapping("/api")
+public class InvestigadorController {
+
+	@Autowired
+	InvestigadorServiceImpl ivservice;
+	
+	@GetMapping("/investigadores")
+	public List<Investigador> listInvestigadores() {
+		return ivservice.listInvestigadores();
+	}
+	
+	@
+	
+}

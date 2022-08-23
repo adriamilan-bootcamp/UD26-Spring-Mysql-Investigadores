@@ -1,0 +1,9 @@
+package com.adriamilan.investigadores.service;
+
+public interface IEquipoService {
+
+	public List<Equipo> listEquipos();
+	
+	public Equipo equipoXID(Long id);
+	
+}
